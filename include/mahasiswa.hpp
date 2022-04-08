@@ -25,6 +25,9 @@ public:
 	void setSKSLulus(int skslulus);
 	int getSKSLulus();
 
+	std::string getNRP();
+	std::string getDepartemen();
+
 	void hitungIPK();
 
 	void setIPS(int semester, float ips);

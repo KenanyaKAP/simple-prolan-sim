@@ -34,6 +34,16 @@ int mahasiswa::getSKSLulus()
 	return this->skslulus;
 }
 
+std::string mahasiswa::getNRP()
+{
+	return this->nrp;
+}
+
+std::string mahasiswa::getDepartemen()
+{
+	return this->departemen;
+}
+
 void mahasiswa::hitungIPK()
 {
 }
