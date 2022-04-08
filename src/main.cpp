@@ -1,308 +1,308 @@
 #include <iostream>
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 #include <vector>
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 #include "include/person.hpp"
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 #include "include/mahasiswa.hpp"
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 #include "include/dosen.hpp"
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 #include "include/tendik.hpp"
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 using namespace std;
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 int main()
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 {
-	// COPAS ITU HARAM
+	// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 	vector<mahasiswa> recMhs;
-	// COPAS ITU HARAM
+	// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 	vector<dosen> recDosen;
-	// COPAS ITU HARAM
+	// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 	vector<tendik> recTendik;
-	// COPAS ITU HARAM
+	// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 	int menu_terpilih;
-	// COPAS ITU HARAM
+	// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 	while(1) {
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "Selamat datang di Universitas X" << endl << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "Data statistik:" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  1. Jumlah Mahasiswa             : " << recMhs.size() << " mahasiswa" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  2. Jumlah Dosen                 : " << recDosen.size() << " mahasiswa" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  3. Jumlah Tenaga Kependidikan   : " << recTendik.size() << " mahasiswa" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "Menu: " << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  1. Tambah Mahasiswa" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  2. Tambah Dosen" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  3. Tambah Tenaga Kependidikan" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  4. Tampilkan semua Mahasiswa" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  5. Tampilkan semua Dosen" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "  6. Tampilkan semua Tenaga Kependidikan" << endl;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cout << "-> Silahkan memilih salah satu: ";
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		cin >> menu_terpilih;
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		switch (menu_terpilih) {
-			// COPAS ITU HARAM
+			// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 			case 1:
-			// COPAS ITU HARAM
+			// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				{
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					string id, nama, nrp, departemen;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					int dd, mm, yy, tahunmasuk;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan id: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> id;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan nama: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> nama;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan tgl lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> dd;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan bln lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> mm;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan thn lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> yy;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan nrp: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> nrp;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan departemen: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> departemen;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan tahun masuk: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> tahunmasuk;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					mahasiswa mhs(id, nama, dd, mm, yy, nrp, departemen, tahunmasuk);
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					recMhs.push_back(mhs);
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				}
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				break;
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 			case 2:
-			// COPAS ITU HARAM
+			// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				{
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					string id, nama, npp, departemen;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					int dd, mm, yy, pendidikan;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan id: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> id;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan nama: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> nama;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan tgl lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> dd;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan bln lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> mm;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan thn lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> yy;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan npp: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> npp;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan departemen: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> departemen;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan pendidikan: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> pendidikan;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					dosen dsn(id, nama, dd, mm, yy, npp, departemen, pendidikan);
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					recDosen.push_back(dsn);
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				}
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				break;
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 			case 3:
-			// COPAS ITU HARAM
+			// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				{
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					string id, nama, npp, unit;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					int dd, mm, yy;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan id: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> id;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan nama: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> nama;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan tgl lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> dd;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan bln lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> mm;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan thn lahir: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> yy;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan npp: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> npp;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cout << "Masukkan unit: ";
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					cin >> unit;
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					tendik tdk(id, nama, dd, mm, yy, npp, unit);
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					recTendik.push_back(tdk);
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				}
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				break;
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 			case 4:
-			// COPAS ITU HARAM
+			// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				{
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					for (int i = 0; i < recMhs.size(); i++)
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					{
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Nama: " << recMhs[i].getNama() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Tgl lahir: " << recMhs[i].getTglLahir();
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "/" << recMhs[i].getBulanLahir();
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "/" << recMhs[i].getTahunLahir() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "NRP: " << recMhs[i].getNRP() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Departemen: " << recMhs[i].getDepartemen() << endl << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					}
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				}
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				break;
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 			case 5:
-			// COPAS ITU HARAM
+			// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				{
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					for (int i = 0; i < recDosen.size(); i++)
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					{
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Nama: " << recDosen[i].getNama() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Tgl lahir: " << recDosen[i].getTglLahir();
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "/" << recDosen[i].getBulanLahir();
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "/" << recDosen[i].getTahunLahir() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "NRP: " << recDosen[i].getNPP() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Pendidikan: S" << recDosen[i].getPendidikan() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Departemen: " << recDosen[i].getDepartemen() << endl << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					}
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				}
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				break;
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 			case 6:
-			// COPAS ITU HARAM
+			// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				{
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					for (int i = 0; i < recTendik.size(); i++)
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					{
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Nama: " << recTendik[i].getNama() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Tgl lahir: " << recTendik[i].getTglLahir();
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "/" << recTendik[i].getBulanLahir();
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "/" << recTendik[i].getTahunLahir() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "NRP: " << recTendik[i].getNPP() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 						cout << "Unit: " << recTendik[i].getUnit() << endl;
-						// COPAS ITU HARAM
+						// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 					}
-					// COPAS ITU HARAM
+					// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				}
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 				break;
-				// COPAS ITU HARAM
+				// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 		}
-		// COPAS ITU HARAM
+		// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 	}
-	// COPAS ITU HARAM
+	// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 	return 0;
-	// COPAS ITU HARAM
+	// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
 }
-// COPAS ITU HARAM
+// JANGAN DI COPAS PLEASE :""") PELAJARI LAGI YA EHEHEHE
